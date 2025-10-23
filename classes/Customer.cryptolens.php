@@ -142,13 +142,16 @@ namespace Cryptolens_PHP_Client {
          * @param int $limit Specifiy the number of customers to be returned.
          * @return array|false Either the customer objects or false
          */
-        public function get_customers(string $search = null, int $modelversion = 1, int $limit = null){
+        public function get_customers(string $search = null, string $customerId = null, int $modelversion = 1, int $limit = null){
             $additional_flags = array();
             if(isset($search)){
                 $additional_flags["Search"] = $search;
             }
             if(isset($limit)){
                 $additional_flags["Limit"] = $limit;
+            }
+            if(isset($customerId)){
+                $additional_flags["CustomerId"] = $customerId;
             }
             $additional_flags["ModelVersion"] = $modelversion;
             $parms = Helper::build_params($this->cryptolens->getToken(), $this->cryptolens->getProductId(), null, null, $additional_flags);

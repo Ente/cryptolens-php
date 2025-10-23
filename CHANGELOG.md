@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.3
+
+* added `customerId` parameter to `Customer::getCustomers()` function to filter customers by their ID.
+* fixed various typos
+
 ## v1.2
 
 * All API classes can now directly be used from the Cryptolens base class

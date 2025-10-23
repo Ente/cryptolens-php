@@ -22,7 +22,7 @@ namespace Cryptolens_PHP_Client {
         /**
          * `register_event()` - Adds a event
          * 
-         * This function adds a event which has occured in the client application to trigger certain interaction in third-party integrations or else.
+         * This function adds a event which has occurred in the client application to trigger certain interaction in third-party integrations or else.
          * According to the API documentation events are hold for 30 days and might get deleted after.
          * You can provide either the license key or the key ID for the `$key` variable
          * 
@@ -63,7 +63,7 @@ namespace Cryptolens_PHP_Client {
         /**
          * `register_events()` - Adds multiple events
          * 
-         * This function adds multiple events which has occured in the client application to trigger certain interaction in third-party integrations or else.
+         * This function adds multiple events which has occurred in the client application to trigger certain interaction in third-party integrations or else.
          * According to the API documentation events are hold for 30 days and might get deleted after.
          * You can provide either the license key or the key ID for the `$key` variable
          * 

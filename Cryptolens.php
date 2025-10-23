@@ -162,7 +162,7 @@ namespace Cryptolens_PHP_Client {
             if(self::$output == self::CRYPTOLENS_OUTPUT_PHP){
                 if($error == 1){
                     return [
-                        "error" => "An error occured!",
+                        "error" => "An error occurred!",
                         "message" => $data["message"]
                     ];
                     
@@ -171,7 +171,7 @@ namespace Cryptolens_PHP_Client {
             } elseif(self::$output == self::CRYPTOLENS_OUTPUT_JSON){
                 if($error == 1){
                     return [
-                        "error" => "An error occured!",
+                        "error" => "An error occurred!",
                         "message" => $data["message"]
                     ];
                 }

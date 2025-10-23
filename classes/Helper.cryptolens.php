@@ -79,7 +79,7 @@ namespace Cryptolens_PHP_Client {
             if(self::check_response($resp, $endpoint, $group) == true){
                 return $resp;
             } else {
-                return "Could not validate reponse";
+                return "Could not validate response";
             }
         }
 

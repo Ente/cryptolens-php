@@ -192,7 +192,7 @@ namespace Cryptolens_PHP_Client {
                         "Result",
                         "Message"
                     ],
-                    "decramentIntValue" => [
+                    "decrementIntValue" => [
                         "Result",
                         "Message"
                     ],

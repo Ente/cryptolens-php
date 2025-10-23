@@ -54,11 +54,11 @@ if($_GET["action"] == "addCustomer"){
             if($key != false){
                 echo "Key " . $key["key"] . " has been linked to customer ID " . $customer . " and machine ID" . $k->getMachineId();
             } else {
-                echo "An error occured\n";
+                echo "An error occurred\n";
                 print_r($key);
             }
         } else {
-            echo "An error occured\n";
+            echo "An error occurred\n";
             print_r($customer);
         }
     }

@@ -64,7 +64,7 @@ namespace Cryptolens_PHP_Client {
          * `remove_message()` - Removes a message with id.
          *
          * @param integer $message_id The Id from the message to be removed.
-         * @return array|false Returns either an array, containing the "Result" key which either is 0 for success or 1 if an error occured. Returning false on connection error. 
+         * @return array|false Returns either an array, containing the "Result" key which either is 0 for success or 1 if an error occurred. Returning false on connection error. 
          */
         public function remove_message(int $message_id){
             $parms = Helper::build_params($this->cryptolens->getToken(), $this->cryptolens->getProductId(), null, null, array("Id" => $message_id));

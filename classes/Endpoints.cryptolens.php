@@ -65,7 +65,7 @@ namespace Cryptolens_PHP_Client {
             "addDataObject" => "https://api.cryptolens.io/api/data/AddDataObject",
             "listDataObjects" => "https://api.cryptolens.io/api/data/ListDataObjects",
             "incrementIntValue" => "https://api.cryptolens.io/api/data/IncrementIntValue",
-            "decramentIntValue" => "https://api.cryptolens.io/api/data/DecramentIntValue",
+            "decrementIntValue" => "https://api.cryptolens.io/api/data/decrementIntValue",
             "setStringValue" => "https://api.cryptolens.io/api/data/SetStringValue",
             "setIntValue" => "https://api.cryptolens.io/api/data/SetIntValue",
             "removeDataObject" => "https://api.cryptolens.io/api/data/RemoveDataObject",
